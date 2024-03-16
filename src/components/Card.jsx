@@ -1,146 +1,145 @@
-import React from 'react';
+import React from "react";
 
 const Card = () => {
-    const obj = [
+  const obj = [
+    {
+      id: 1,
+      available: "FREE",
+      price: "$0/month",
+      data: [
         {
           id: 1,
-          available: "FREE",
-          price: "$0/month",
-          data: [
-            {
-              id: 1,
-              user: "Single User ",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 2,
-              user: "50GB Storage",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 3,
-              user: "Unlimited Public Projects",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 4,
-              user: "Community Access",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 5,
-              user: <span className="gray">Unlimited Private Projects</span>,
-              icon: <i class="fa-solid fa-x"></i>,
-            },
-            {
-              id: 6,
-              user: <span className="gray">Dedicated phone Support</span>,
-              icon: <i class="fa-solid fa-x"></i>,
-            },
-            {
-              id: 7,
-              user: <span className="gray">Free Subdomain</span>,
-              icon: <i class="fa-solid fa-x"></i>,
-            },
-            {
-              id: 8,
-              user: <span className="gray">Monthly Status Reports</span>,
-              icon:<i class="fa-solid fa-x"></i>,
-            },
-          ],
+          user: "Single User ",
+          icon: <i class="fa-solid fa-check"></i>,
         },
         {
           id: 2,
-          available: "PLUS",
-          price: "$9/month",
-          data: [
-            { id: 1, user: "5 Users", icon: <i class="fa-solid fa-check"></i> },
-            {
-              id: 2,
-              user: "50GB Storage",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 3,
-              user: "Unlimited Public Projects",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 4,
-              user: "Community Access",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 5,
-              user: "Unlimited Private Projects",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 6,
-              user: "Dedicated phone Support",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 7,
-              user: "Free Subdomain",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 8,
-              user: <span className="gray">Monthly Status Reports</span>,
-              icon: <i class="fa-solid fa-x"></i>,
-            },
-          ],
+          user: "50GB Storage",
+          icon: <i class="fa-solid fa-check"></i>,
         },
         {
           id: 3,
-          available: "PRO",
-          price: "$49/month",
-          data: [
-            { id: 1, user: "Single User", icon: <i class="fa-solid fa-check"></i> },
-            {
-              id: 2,
-              user: "50GB Storage",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 3,
-              user: "Unlimited Public Projects",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 4,
-              user: "Community Access",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 6,
-              user: "Dedicated phone Support",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 5,
-              user: "Unlimited Private Projects",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 7,
-              user: "Free Subdomain ",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-            {
-              id: 8,
-              user: "Monthly Status Reports",
-              icon: <i class="fa-solid fa-check"></i>,
-            },
-          ],
+          user: "Unlimited Public Projects",
+          icon: <i class="fa-solid fa-check"></i>,
         },
-      ];
+        {
+          id: 4,
+          user: "Community Access",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 5,
+          user: <span className="gray">Unlimited Private Projects</span>,
+          icon: <i class="fa-solid fa-x"></i>,
+        },
+        {
+          id: 6,
+          user: <span className="gray">Dedicated phone Support</span>,
+          icon: <i class="fa-solid fa-x"></i>,
+        },
+        {
+          id: 7,
+          user: <span className="gray">Free Subdomain</span>,
+          icon: <i class="fa-solid fa-x"></i>,
+        },
+        {
+          id: 8,
+          user: <span className="gray">Monthly Status Reports</span>,
+          icon: <i class="fa-solid fa-x"></i>,
+        },
+      ],
+    },
+    {
+      id: 2,
+      available: "Prime",
+      price: "$9/month",
+      data: [
+        { id: 1, user: "5 Users", icon: <i class="fa-solid fa-check"></i> },
+        {
+          id: 2,
+          user: "50GB Storage",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 3,
+          user: "Unlimited Public Projects",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 4,
+          user: "Community Access",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 5,
+          user: "Unlimited Private Projects",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 6,
+          user: "Dedicated phone Support",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 7,
+          user: "Free Subdomain",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 8,
+          user: <span className="gray">Monthly Status Reports</span>,
+          icon: <i class="fa-solid fa-x"></i>,
+        },
+      ],
+    },
+    {
+      id: 3,
+      available: "PRO",
+      price: "$49/month",
+      data: [
+        { id: 1, user: "Single User", icon: <i class="fa-solid fa-check"></i> },
+        {
+          id: 2,
+          user: "50GB Storage",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 3,
+          user: "Unlimited Public Projects",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 4,
+          user: "Community Access",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 6,
+          user: "Dedicated phone Support",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 5,
+          user: "Unlimited Private Projects",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 7,
+          user: "Free Subdomain ",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+        {
+          id: 8,
+          user: "Monthly Status Reports",
+          icon: <i class="fa-solid fa-check"></i>,
+        },
+      ],
+    },
+  ];
 
-    return (
-        <>
-
-<div className="container">
+  return (
+    <>
+      <div className="container">
         <h1>React Price Card Task</h1>
         <div className="row">
           {obj.map((item, index) => (
@@ -167,8 +166,8 @@ const Card = () => {
           ))}
         </div>
       </div>
-        </>
-    );
+    </>
+  );
 };
 
 export default Card;
