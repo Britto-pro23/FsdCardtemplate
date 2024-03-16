@@ -1,15 +1,12 @@
-import React from 'react';
-import Card from './components/Card';
-import './App.css';
+import React from "react";
+import Card from "./components/Card";
+import "./App.css";
 
 const App = () => {
-  
   return (
     <div>
-      
-      <Card/>
-
-      
+      <h1>hello</h1>
+      <Card />
     </div>
   );
 };
